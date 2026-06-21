@@ -1,70 +1,78 @@
-PYTHON EXPENSE TRACKER
+DECODELABS EXPENSE TRACKER
 
-Project Overview
-This is a simple Expense Tracker application developed using Python as part of the DecodeLabs Industrial Training Kit - Project 2. It tracks ongoing expenses and accumulates them into a running total.
+📌 Project Overview
+The Expense Tracker allows users to enter multiple expense amounts one by one. The application continuously updates the running total and displays the final amount spent when the user exits the program.
 
-Features
-Add new expense amounts
+🚀 Features
+1.Add multiple expense entries
 
-Continuous tracking loop
+2.Running total calculation
 
-Automated running total calculation
+3.Input validation for incorrect values
 
-Error handling for invalid inputs or negative numbers
+4.Exit option to stop entering expenses
 
-Clean exit sequence
+5.Final expense summary display
 
-Technologies Used
-Python
+6.Beginner-friendly Python project
 
-Floating-Point Math
+🛠️ Technologies Used
+Python 3
 
-While Loops
+Visual Studio Code
 
-Conditional Statements (if-else)
+Command Line Interface (CLI)
 
-Exception Handling (try-except)
+📂 Project Structure
+decodelabs-expense-tracker/
+│
+├── expense_tracker.py
+├── README.md
+└── screenshots/
+    └── output.png
+▶️ How to Run
+Clone the repository:
 
-How to Run
-Download the project files.
+git clone https://github.com/your-username/decodelabs-expense-tracker.git
+Navigate to the project folder:
 
-Open a terminal in the project folder.
+cd decodelabs-expense-tracker
+Run the Python file:
 
-Run:
-
-Bash
 python expense_tracker.py
-Sample Output
-Plaintext
-======================================
-     DECODELABS EXPENSE TRACKER       
-======================================
+💻 Sample Output
+=====================================
+      DECODELABS EXPENSE TRACKER
+  The Architecture of Financial Truth
+=====================================
 
 Enter your expense amounts below.
 Type 'exit' when you are finished.
 
-Enter expense amount ($): 45.50
-✅ Added $45.50. Current Running Total: $45.50
+Enter expense amount ($): 50
+Added $50.00. Current Running Total: $50.00
 
-Enter expense amount ($): hello
-❌ Invalid input. Please enter a number or type 'exit'.
+Enter expense amount ($): 25.50
+Added $25.50. Current Running Total: $75.50
+
+Enter expense amount ($): 40
+Added $40.00. Current Running Total: $115.50
 
 Enter expense amount ($): exit
 
---------------------------------------
-📁 DATA PROCESSING COMPLETE
-📦 Grand Total Spent: $45.50
-======================================
-Learning Outcomes
-Understanding Data Accumulation concepts (total=total+new_value)
+DATA PROCESSING COMPLETE
+Grand Total Spent: $115.50
+🎯 Learning Outcomes
+Through this project, I learned:
 
-Working with continuous execution loops
+1.User input handling in Python
 
-Using try-except to prevent program crashes
+2.While loops and program flow control
 
-Validating and filtering user input strings
+3.Exception handling using try-except
 
-Managing backend states during runtime
+4.Data validation techniques
 
-Author
-Ashwitha
+5.Running total calculations
+
+6.Building interactive console applications
