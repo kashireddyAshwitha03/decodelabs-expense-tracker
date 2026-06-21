@@ -62,6 +62,7 @@ Enter expense amount ($): exit
 
 DATA PROCESSING COMPLETE
 Grand Total Spent: $115.50
+
 🎯 Learning Outcomes
 Through this project, I learned:
 
