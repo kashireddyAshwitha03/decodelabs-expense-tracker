@@ -31,13 +31,6 @@ decodelabs-expense-tracker/
 └── screenshots/
     └── output.png
 ▶️ How to Run
-Clone the repository:
-
-git clone https://github.com/your-username/decodelabs-expense-tracker.git
-Navigate to the project folder:
-
-cd decodelabs-expense-tracker
-Run the Python file:
 
 python expense_tracker.py
 💻 Sample Output
